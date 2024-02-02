@@ -1,2 +1,15 @@
-# solvd_laba_2023-02_tests
-SOLVD laba 2023-02 Tests
+### Tests
+
+---
+
+***[Solvd.Laba](https://laba.solvd.com/)***
+
+**Course:** *2023-02*
+
+**Task:** *API, web and mobile tests*
+
+**Student:** *Alexey Bobrikov*
+
+---
+
+***© 2024***
