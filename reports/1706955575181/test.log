@@ -1,0 +1,54 @@
+[2024-02-03 10:19:35] [1] [INFO] [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+[2024-02-03 10:19:37] [1] [INFO] Request method:	POST
+Request URI:	https://dummyjson.com/products/add
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+{
+    "id": "50",
+    "title": "Women Shoes",
+    "description": "2020 New Arrivals Genuine Leather Fashion Trend Platform Summer Women Shoes",
+    "price": "36",
+    "discountPercentage": "16,87",
+    "rating": "4,33",
+    "stock": "46",
+    "brand": "Arrivals Genuine",
+    "category": "womens-shoes"
+}
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Sat, 03 Feb 2024 10:19:37 GMT
+x-ratelimit-reset: 1706955587
+content-type: application/json; charset=utf-8
+content-length: 219
+etag: W/"db-JrODZiZDFci332Tdud8I9dDBWPU"
+vary: Accept-Encoding
+server: railway
+
+{
+    "id": 101,
+    "title": "Women Shoes",
+    "price": "36",
+    "stock": "46",
+    "rating": "4,33",
+    "description": "2020 New Arrivals Genuine Leather Fashion Trend Platform Summer Women Shoes",
+    "brand": "Arrivals Genuine",
+    "category": "womens-shoes"
+}
+

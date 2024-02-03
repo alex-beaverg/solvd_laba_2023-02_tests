@@ -1,0 +1,94 @@
+[2024-02-03 08:32:21] [1] [INFO] [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+[2024-02-03 08:32:23] [1] [INFO] Request method:	GET
+Request URI:	https://dummyjson.com/carts/10
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+access-control-allow-origin: *
+x-dns-prefetch-control: off
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+date: Sat, 03 Feb 2024 08:32:23 GMT
+x-ratelimit-reset: 1706949147
+content-type: application/json; charset=utf-8
+etag: W/"455-ukSXA33rDk4uKSAztUg/Ajvz5lI"
+vary: Accept-Encoding
+content-encoding: gzip
+server: railway
+transfer-encoding: chunked
+
+{
+    "id": 10,
+    "products": [
+        {
+            "id": 75,
+            "title": "Seven Pocket Women Bag",
+            "price": 68,
+            "quantity": 1,
+            "total": 68,
+            "discountPercentage": 14.87,
+            "discountedPrice": 58,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/75/thumbnail.jpg"
+        },
+        {
+            "id": 39,
+            "title": "Women Sweaters Wool",
+            "price": 600,
+            "quantity": 1,
+            "total": 600,
+            "discountPercentage": 17.2,
+            "discountedPrice": 497,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/39/thumbnail.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Samsung Universe 9",
+            "price": 1249,
+            "quantity": 3,
+            "total": 3747,
+            "discountPercentage": 15.46,
+            "discountedPrice": 3168,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/3/thumbnail.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Samsung Galaxy Book",
+            "price": 1499,
+            "quantity": 1,
+            "total": 1499,
+            "discountPercentage": 4.15,
+            "discountedPrice": 1437,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
+        },
+        {
+            "id": 93,
+            "title": "Automatic Motor Gas Motorcycles",
+            "price": 1050,
+            "quantity": 3,
+            "total": 3150,
+            "discountPercentage": 3.34,
+            "discountedPrice": 3045,
+            "thumbnail": "https://cdn.dummyjson.com/product-images/93/thumbnail.jpg"
+        }
+    ],
+    "total": 9064,
+    "discountedTotal": 8205,
+    "userId": 13,
+    "totalProducts": 5,
+    "totalQuantity": 9
+}
+

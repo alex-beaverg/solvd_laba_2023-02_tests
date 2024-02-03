@@ -1,0 +1,15 @@
+[2024-02-03 10:36:55] [1] [INFO] [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+[2024-02-03 10:36:56] [1] [INFO] Request method:	DELETE
+Request URI:	http://localhost:8080/%23%7Bbase_url%7D/products/50
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+

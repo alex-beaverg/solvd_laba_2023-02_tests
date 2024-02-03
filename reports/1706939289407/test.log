@@ -1,0 +1,15 @@
+[2024-02-03 05:48:09] [1] [INFO] 
+=========== WebDriver configuration ===========
+-------------- Driver capabilities ------------
+===============================================
+
+[2024-02-03 05:48:09] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-02-03 05:48:10] [1] [INFO] [TestNG] Running:
+  C:\Users\ASUS\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+[2024-02-03 05:48:10] [1] [INFO] Set thread-count=1
+[2024-02-03 05:48:10] [1] [INFO] Set data-provider-thread-count=1
+[2024-02-03 05:48:10] [1] [INFO] CARINA_CORE_VERSION: 1.2.6
+[2024-02-03 05:48:13] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2024-02-03 05:48:13] [1] [INFO] RESULT #1: TEST [solvd_laba_2023-02_tests - verifyGetProductById [L01]] FAIL [log=file://D:\Code\SOLVD_Java_AQA_course\solvd_laba_2023-02_tests\reports\1706939289407/32c37f39-0f78-40ba-9a13-ad75595ba2bc/test.log]
+[2024-02-03 05:48:13] [1] [INFO] RESULT #2: TEST [solvd_laba_2023-02_tests - verifyGetProductById [L02]] FAIL [log=file://D:\Code\SOLVD_Java_AQA_course\solvd_laba_2023-02_tests\reports\1706939289407/d2f5dc54-844f-4ee2-a845-8be2c0ce9585/test.log]
