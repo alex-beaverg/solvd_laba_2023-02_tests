@@ -41,8 +41,8 @@ public class LoginAndLogoutTest extends BaseTest {
 
         getLoginHeader();
         MyAccountPage myAccountPage = LOGIN_SERVICE.login(LOGIN_SERVICE.createUser(Users.VALID), getDriver());
-        myAccountPage.clickLogOutButton();
-        sa.assertEquals(getDriver().getCurrentUrl(), Configuration.getRequired("home_url"), "Home Page isn't open!");
+        HomePage homePage = myAccountPage.clickLogOutButton();
+        sa.assertTrue(homePage.isPageOpened(), "Home Page isn't open!");
 
         sa.assertAll();
     }

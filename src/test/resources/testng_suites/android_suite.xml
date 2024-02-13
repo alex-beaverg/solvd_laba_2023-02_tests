@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Android suite" verbose="1" parallel="tests" thread-count="1">
+    <test name="Carina login tests" parallel="methods" thread-count="1">
+        <classes>
+            <class name="com.solvd.tests.android.carina.LoginTest"/>
+        </classes>
+    </test>
+    <test name="Mobile.de login tests" parallel="methods" thread-count="1">
+        <classes>
+            <class name="com.solvd.tests.android.mobile_de.LoginTest"/>
+        </classes>
+    </test>
+    <test name="Mobile.de search tests" parallel="methods" thread-count="1">
+        <classes>
+            <class name="com.solvd.tests.android.mobile_de.SearchTest"/>
+        </classes>
+    </test>
+    <test name="Mobile.de vehicle card tests" parallel="methods" thread-count="1">
+        <classes>
+            <class name="com.solvd.tests.android.mobile_de.VehicleCardTest"/>
+        </classes>
+    </test>
+    <test name="Mobile.de car park tests" parallel="methods" thread-count="1">
+        <classes>
+            <class name="com.solvd.tests.android.mobile_de.CarParkTest"/>
+        </classes>
+    </test>
+</suite>
