@@ -14,10 +14,10 @@ public class ProductsPage extends BasePage {
     @FindBy(xpath = "//select[@id='sort']")
     private ExtendedWebElement selectSortElement;
 
-    @FindBy(xpath = "//div[@class='products-list']//div[@class='product-name']//h5//a")
+    @FindBy(xpath = "//div[@class='products-list']//h5/a")
     private List<ExtendedWebElement> productNameElements;
 
-    @FindBy(xpath = "//div[@class='products-list']//div[@class='price']//div[1]")
+    @FindBy(xpath = "//div[@class='price']//div[1]")
     private List<ExtendedWebElement> productPriceElements;
 
     @FindBy(xpath = "//div[@class='products-list']//footer//button")
