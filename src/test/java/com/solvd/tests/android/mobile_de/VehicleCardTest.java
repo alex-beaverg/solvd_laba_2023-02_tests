@@ -20,12 +20,12 @@ public class VehicleCardTest extends BaseTest {
         HomePageBase homePage = getHomePage();
 
         VehicleCardService vehicleCardService = new VehicleCardService();
-        VehicleCard vehicleCardFromHomePage = vehicleCardService.createVehicleCardFromHomePage(homePage);
+        VehicleCard vehicleCardFromHomePage = vehicleCardService.createVehicleCardFromHomePage();
 
         VehicleCardPageBase vehicleCardPage = homePage.clickFirstVehicleCard();
         sa.assertTrue(vehicleCardPage.isPageOpened(), "Vehicle card page wasn't opened!");
 
-        VehicleCard vehicleCardFromCardPage = vehicleCardService.createVehicleCardFromCardPage(vehicleCardPage);
+        VehicleCard vehicleCardFromCardPage = vehicleCardService.createVehicleCardFromCardPage();
 
         sa.assertTrue(vehicleCardFromHomePage.equals(vehicleCardFromCardPage),
                 "Vehicle from Home page isn't equal vehicle from Card page!");
@@ -44,13 +44,12 @@ public class VehicleCardTest extends BaseTest {
         sa.assertTrue(onlineBuyingPage.isPageOpened(), "Online Buying page wasn't opened!");
 
         VehicleCardService vehicleCardService = new VehicleCardService();
-        VehicleCard vehicleCardFromOnlineBuyingPage = vehicleCardService.createVehicleCardFromOnlineBuyingPage(onlineBuyingPage);
+        VehicleCard vehicleCardFromOnlineBuyingPage = vehicleCardService.createVehicleCardFromOnlineBuyingPage();
 
         OnlineBuyingVehicleCardPageBase onlineBuyingVehicleCardPage = onlineBuyingPage.clickFirstVehicleCard();
         sa.assertTrue(onlineBuyingVehicleCardPage.isPageOpened(), "Online buying vehicle card page wasn't opened!");
 
-        VehicleCard vehicleCardFromOnlineBuyingCardPage = vehicleCardService
-                .createVehicleCardFromOnlineBuyingVehicleCardPage(onlineBuyingVehicleCardPage);
+        VehicleCard vehicleCardFromOnlineBuyingCardPage = vehicleCardService.createVehicleCardFromOnlineBuyingVehicleCardPage();
 
         sa.assertTrue(vehicleCardFromOnlineBuyingPage.equals(vehicleCardFromOnlineBuyingCardPage),
                 "Vehicle from Online buying page isn't equal vehicle from Online buying Card page!");

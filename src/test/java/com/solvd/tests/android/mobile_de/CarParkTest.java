@@ -45,7 +45,7 @@ public class CarParkTest extends BaseTest {
         homePage = homePage.clickAddCarToCarPark(carQuantity);
 
         VehicleCardService vehicleCardService = new VehicleCardService();
-        VehicleCard vehicleCardFromHomePage = vehicleCardService.createVehicleCardFromHomePage(homePage);
+        VehicleCard vehicleCardFromHomePage = vehicleCardService.createVehicleCardFromHomePage();
 
         MainMenuBase mainMenu = homePage.clickMainMenuButton();
         CarParkPageBase carParkPage = mainMenu.clickCarParkMenuItem();
@@ -54,7 +54,7 @@ public class CarParkTest extends BaseTest {
         VehicleCardPageBase vehicleCardPage = carParkPage.clickFirstCard();
         sa.assertTrue(vehicleCardPage.isPageOpened(), "Vehicle card page wasn't opened!");
 
-        VehicleCard vehicleCardFromVehicleCardPage = vehicleCardService.createVehicleCardFromCardPage(vehicleCardPage);
+        VehicleCard vehicleCardFromVehicleCardPage = vehicleCardService.createVehicleCardFromCardPage();
 
         sa.assertTrue(vehicleCardFromHomePage.equals(vehicleCardFromVehicleCardPage),
                 "Vehicle from Home page isn't equal vehicle from Car park page!");
