@@ -16,8 +16,8 @@
         <carina-api.version>1.2.4</carina-api.version>
         <carina-core.version>1.2.6</carina-core.version>
         <maven-surfire.version>3.2.5</maven-surfire.version>
-        <suite></suite>
         <log4j.version>2.22.1</log4j.version>
+        <suite></suite>
     </properties>
 
     <dependencies>
@@ -25,7 +25,6 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>${testng.version}</version>
-            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.zebrunner</groupId>
@@ -63,5 +62,4 @@
             </plugins>
         </pluginManagement>
     </build>
-
 </project>

@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class Footer extends AbstractUIObject {
 
-    @FindBy(xpath = ".//nav[@class='footer-menu']//div[3]//ul")
+    @FindBy(xpath = ".//div[./h4[text() = 'ASSISTANCE']]/ul")
     private AssistanceMenu assistanceMenu;
 
     public Footer(WebDriver driver, SearchContext searchContext) {

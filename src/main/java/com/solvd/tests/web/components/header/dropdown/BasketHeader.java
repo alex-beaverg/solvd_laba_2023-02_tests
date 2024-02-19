@@ -21,7 +21,7 @@ public class BasketHeader extends AbstractUIObject {
     @FindBy(xpath = "//div[@class='single-item']//div[@class='price']")
     private List<ExtendedWebElement> basketItemPriceElements;
 
-    @FindBy(xpath = "//div[@class='basket-products-list']//footer//div//div//div[2]")
+    @FindBy(xpath = "//div[text() = 'TOTAL:']/following-sibling::div")
     private ExtendedWebElement basketTotalPriceElement;
 
     @FindBy(xpath = "//div[@class='single-item']//header//button[@data-id]")

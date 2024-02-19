@@ -1,0 +1,9 @@
+.idea/
+target/
+logs/
+reports/
+selenium-server-4.17.0.jar
+_testdata.properties
+mobile.de.apk
+appium-inspector.json
+cmd.info
