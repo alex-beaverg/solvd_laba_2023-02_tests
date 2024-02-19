@@ -1,6 +1,7 @@
 package com.solvd.tests.android.mobile_de.pages;
 
 import com.solvd.tests.android.mobile_de.pages.common.HelpAndSettingsPageBase;
+import com.solvd.tests.android.mobile_de.pages.common.PrivacySettingsPageBase;
 import com.zebrunner.carina.utils.factory.DeviceType;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import org.openqa.selenium.WebDriver;
@@ -17,6 +18,9 @@ public class HelpAndSettingsPage extends HelpAndSettingsPageBase {
 
     @FindBy(xpath = "//android.widget.TextView[@text=\"Log Out\"]")
     private ExtendedWebElement logoutButton;
+
+    @FindBy(xpath = "//android.widget.TextView[@resource-id=\"de.mobile.android.app:id/privacy_settings\"]")
+    private ExtendedWebElement privacySettingsLink;
 
     public HelpAndSettingsPage(WebDriver driver) {
         super(driver);
@@ -41,6 +45,12 @@ public class HelpAndSettingsPage extends HelpAndSettingsPageBase {
     @Override
     public ExtendedWebElement getLogoutButton() {
         return logoutButton;
+    }
+
+    @Override
+    public PrivacySettingsPageBase clickPrivacySettingsLink() {
+        privacySettingsLink.click();
+        return initPage(driver, PrivacySettingsPageBase.class);
     }
 
     @Override

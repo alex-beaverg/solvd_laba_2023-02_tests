@@ -17,4 +17,6 @@ public abstract class HelpAndSettingsPageBase extends PageBase {
     public abstract ExtendedWebElement getLoginTextView();
 
     public abstract ExtendedWebElement getLogoutButton();
+
+    public abstract PrivacySettingsPageBase clickPrivacySettingsLink();
 }
