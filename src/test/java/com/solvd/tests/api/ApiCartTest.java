@@ -1,6 +1,5 @@
 package com.solvd.tests.api;
 
-import com.solvd.tests.api.GetCartById;
 import com.solvd.tests.api.domain.Cart;
 import com.solvd.tests.api.domain.Product;
 import com.zebrunner.carina.api.apitools.validation.JsonComparatorContext;
